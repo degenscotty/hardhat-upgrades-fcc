@@ -1,6 +1,6 @@
 const { developmentChains, VERIFICATION_BLOCK_CONFIRMATIONS } = require("../helper-hardhat-config")
 const { network, deployments, deployer } = require("hardhat")
-const { verify } = require("../helper-functions")
+const { verify } = require("../utils/verify")
 
 async function main() {
     const { deploy, log } = deployments
